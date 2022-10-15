@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.form-p{
+    box-shadow: 10px 6px 14px 5px rgba(0,0,0,0.42);
+    -webkit-box-shadow: 10px 6px 14px 5px rgba(0,0,0,0.42);
+    -moz-box-shadow: 10px 6px 14px 5px rgba(0,0,0,0.42);
+    padding: 2em;
+}
+.title{
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0em;
+    font-size: 4.5rem;
+    margin-bottom: 1em;
+}
+.Title{
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 4rem;
+    margin-bottom: .4em;
+}
+.sub{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2em;
+}
+.presentacion{
+    font-size: 1.5em;
+    padding: 5em 10em;
+}
+.conditions{
+    margin-top: 1.2em;
+    font-size: .8em;
+}
+.form-control {
+    padding: 0.4rem 0.8rem;
+    font-size: 1.2rem;
+}
+
+.boton1{
+    font-size: 1.4em;
+
+    
+}
+img{
+    width: 40em;
+    height: 25em;
+}
+h3{
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+.obeso{
+    display: none;
+    margin: 3em 6em;
+    text-align: center;
+    flex-direction: row;
+    gap: 3.5em;
+    box-shadow: 10px 6px 14px 5px rgba(0,0,0,0.42);
+    -webkit-box-shadow: 10px 6px 14px 5px rgba(0,0,0,0.42);
+    -moz-box-shadow: 10px 6px 14px 5px rgba(0,0,0,0.42);
+    padding: 2em;
+    
+}
+.sobrepeso{
+    display: none;
+    margin: 3em 6em;
+    text-align: center;
+    flex-direction: row;
+    gap: 3.5em;
+    box-shadow: 10px 6px 14px 5px rgba(0,0,0,0.42);
+    -webkit-box-shadow: 10px 6px 14px 5px rgba(0,0,0,0.42);
+    -moz-box-shadow: 10px 6px 14px 5px rgba(0,0,0,0.42);
+    padding: 2em;
+}
+p{
+    font-size: 2rem;
+}
+.normal{
+    margin: 3em 6em;
+    text-align: center;
+    display: none;
+    flex-direction: row;
+    gap: 3.5em;
+    box-shadow: 10px 6px 14px 5px rgba(0,0,0,0.42);
+    -webkit-box-shadow: 10px 6px 14px 5px rgba(0,0,0,0.42);
+    -moz-box-shadow: 10px 6px 14px 5px rgba(0,0,0,0.42);
+    padding: 2em;
+    
+}
+.delgado{
+    margin: 3em 6em;
+    text-align: center;
+    display: none;
+    flex-direction: row;
+    gap: 3.5em;
+    box-shadow: 10px 6px 14px 5px rgba(0,0,0,0.42);
+    -webkit-box-shadow: 10px 6px 14px 5px rgba(0,0,0,0.42);
+    -moz-box-shadow: 10px 6px 14px 5px rgba(0,0,0,0.42);
+    padding: 2em;
+}
+.segundo{
+    height: 27em;
+    overflow: auto;
+}
+.img-center{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}    
+.img-fondo{
+    width: 80%;
+    height: 40rem;   
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css
+    ">
+    <!--Link Bootstrap Javascript-->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js -->
+    ">
+    <!-- Link css -->
+    <link rel="stylesheet" href="styles.css">
+    <title>IMC Control</title>
+</head>
+<body>
+    <main class="presentacion">
+      <h1 class="title">Bienvenido a IMC Control</h1>
+        <form class="row g-3 form-p">
+            <div class="col-md-4">
+              <label for="validationDefault01" class="form-label">Nombres</label>
+              <input type="text" class="form-control" id="validationDefault01" value="" required>
+            </div>
+            <div class="col-md-4">
+              <label for="validationDefault02" class="form-label">Apellidos</label>
+              <input type="text" class="form-control" id="validationDefault02" value="" required>
+            </div>
+            <div class="col-md-4">
+              <label for="validationDefaultUsername" class="form-label">Teléfono</label>
+              <div class="input-group">
+                <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationDefault03" class="form-label">País</label>
+              <input type="text" class="form-control" id="validationDefault03" required>
+            </div>
+            <div class="col-md-3">
+              <label for="validationDefault04" class="form-label">Ciudad</label>
+              <input type="text" class="form-control" id="validationDefault04" required>
+            </div>
+            <div class="col-md-3">
+              <label for="validationDefault05" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+
+            <div class="col-md-8">
+              <label for="validationDefault05" class="form-label">Email</label>
+              <input type="text" class="form-control" id="validationDefault06" required>
+            </div>
+            <div class="col-md-2">
+              <label for="validationDefault05" class="form-label">Talla (cm)</label>
+              <input type="number" class="form-control" id="validationDefault07" placeholder="Altura" required>
+            </div>
+            
+            <div class="col-md-2">
+              <label for="validationDefault05" class="form-label">Peso (kg)</label>
+              <input type="number" class="form-control" id="validationDefault08" required>
+            </div>
+            <div class="col-10 conditions mt-4">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox"  id="invalidCheck2" required>
+                <label class="form-check-label " for="invalidCheck2">
+                  Acepta los términos y condiciones.
+                </label>
+              </div>
+            </div>
+            <div class="col-2 mt-5">
+              <button class="btn" type="submit" ><a class="btn btn-dark boton1" id="b" href="#sec-imc">ENVIAR DATOS</a></button>
+            </div>
+          </form>
+    </main>
+    <section class="sec-imc-bg" id="sec-imc">
+      <h1 class="Title"><span id="namae"></span></h1>
+        <h2 id="sub" class="sub"></h2>
+        <div class="control">
+            <div id="obeso" class="obeso">
+                <div class="primero">
+                  <img class="" src="https://www.uchile.cl/.imaging/default/dam/imagenes/Uchile/imagenes-noticias/157067_2_obesidad-02-l_L/jcr:content.jpg" alt="persona obesa">
+                </div>
+                <div class="segundo">
+                  <h3>Obeso</h3>
+                  <p class="O">Evitar el consumo excesivo de frituras. Consumir agua (6 u 8 vasos de agua al día). Evitar el consumo de alimentos ultra procesados, altos en sodio, azúcar, grasas saturadas y que contengan grasas trans (pueden ayudarse del etiquetado octagonal). Realizar actividad física</p>
+                </div>
+            </div>
+            <div id="sobrepeso" class="sobrepeso">
+                <div class="primero">
+                  <img class="" src="https://clinicamassana.com/wp-content/uploads/2015/02/shutterstock_157800122.jpg" alt="">
+                </div>
+                <div class="segundo">
+                  <h3>Sobrepeso</h3>
+                  <p class="S">Beba abundante agua, entre 1,5 y 2 L al día sin obsesionarse. Evite el consumo de alimentos procesados y ultraprocesados o alimentos fritos o cocinados con excesiva grasa. No almacene alimentos altamente calóricos y ricos en azúcares. Tenga a mano tentempiés más saludables: verduras, lácteos desnatados, frutas.</p>
+                </div>
+            </div>
+            <div id="normal" class="normal">
+                <div class="primero">
+                  <img class="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyOOqtTP0JrAhDGulhtCEkgqkFytKA2FbH0g&usqp=CAU" alt="">
+                </div>
+                <div class="segundo">
+                  <h3>Peso Normal</h3>
+                  <p class="N">Beba abundante agua, entre 1,5 y 2 L al día sin obsesionarse. Evite el consumo de alimentos procesados y ultraprocesados o alimentos fritos o cocinados con excesiva grasa. No almacene alimentos altamente calóricos y ricos en azúcares. Tenga a mano tentempiés más saludables: verduras, lácteos desnatados, frutas.</p>
+                    
+                </div>
+
+            </div>
+            <div id="delgado" class="delgado">
+                <div class="primero">
+                  <img class="" src="http://www.nutriyachay.com/blog/wp-content/uploads/2012/01/9569840-divertido-adolescente-flaco-muestra-b-ceps.jpg" alt="">
+                </div>
+                <div class="segundo"> 
+                  <h3>Peso Bajo</h3>
+                  <p class="D"><strong>Agregue calorías saludables.</strong> No necesita cambiar drásticamente su dieta. Puede aumentar las calorías agregando coberturas de nueces o semillas, queso y guarniciones saludables. Pruebe con almendras, semillas de girasol, frutas o tostadas de trigo integral. <br>
+                  <strong>Opte por alimentos ricos en nutrientes.</strong> En lugar de comer calorías vacías y comida chatarra, consuma alimentos que sean ricos en nutrientes. Considere las carnes altas en proteínas, que pueden ayudarlo a desarrollar músculo. Además, opte por carbohidratos nutritivos, como el arroz integral y otros granos integrales. Esto ayuda a asegurar que su cuerpo reciba la mayor cantidad de alimento posible, incluso si tiene un apetito reducido. <br>
+                  <strong>No restrinja la merienda.</strong> Disfrute de refrigerios que contengan muchas proteínas y carbohidratos saludables. Considere opciones como una mezcla de frutos secos, barritas de proteínas o bebidas y galletas saladas con hummus o mantequilla de cacahuate. Además, disfrute de refrigerios que contienen “grasas buenas”, importantes para un corazón sano. Algunos ejemplos incluyen nueces y aguacates. <br>
+                  <strong>Incorpore comidas pequeñas.</strong> Si tiene problemas de apetito debido a problemas médicos o emocionales, comer grandes cantidades de alimentos puede no parecer atractivo. Considere comer comidas más pequeñas a lo largo del día para aumentar su consumo de calorías. <br>
+                  <strong>Aumente la masa muscular.</strong> Si bien hacer demasiado ejercicio aeróbico lo hará quemar calorías y trabajar en contra de su objetivo de peso, el entrenamiento de fuerza puede ayudar. Esto incluye levantamiento de pesas o yoga. Gana peso si aumenta la masa muscular.</p>
+                  </div>
+            </div>
+        </div>
+        <div id="image" class="img-center">
+            <img class="img-fondo mb-3"src="https://gaceta.cch.unam.mx/sites/default/files/styles/imagen_articulos_1920x1080/public/2021-08/pag_71a.jpg?h=3d6f31f8&itok=u5QVZ0e9" alt="">
+        </div>
+    </section>
+    <script src ="app.js"></script>
+</body>
+</html>
