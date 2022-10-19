@@ -17,27 +17,28 @@ const calculoPeso = () => {
     document.getElementById('image').style.display = 'none';
 
 
-    if (resultado >= 30.0)
+    if (resultado >= 30.00)
     {
 
         document.getElementById('obeso').style.display = 'flex'
           //OBESIDAD
     }
-    else if(resultado >= 25.5){
+    else if(resultado >= 25.50){
        
         document.getElementById('sobrepeso').style.display = 'flex' //SOBREPESO
         
     }
-    else if(resultado <= 18.5){
+    else if(resultado <= 18.50){
         
         document.getElementById('normal').style.display = 'flex'      //NORMAL
     }
-    else if(resultado <= 0){
+    else if(resultado > 0.00){
         
         document.getElementById('delgado').style.display = 'flex'   //BAJO PESO
     }
     else{
-        alert("Debe rellenar el formulario")   
+        alert(resultado);
+        alert("Debe rellenar el formulario");
         location.reload();
     }
     index++;
