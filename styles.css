@@ -12,6 +12,9 @@
     -moz-box-shadow: 10px 6px 14px 5px rgba(0,0,0,0.42);
     padding: 2em;
 }
+.top{
+    margin-top: 0;
+}
 .title{
     font-weight: 700;
     text-align: center;
@@ -37,6 +40,7 @@
 }
 .conditions{
     margin-top: 1.2em;
+    margin-bottom: 0;
     font-size: .8em;
 }
 .form-control {
@@ -48,6 +52,9 @@
     font-size: 1.4em;
 
     
+}
+.nac{
+    font-size: 1.2rem;
 }
 img{
     width: 40em;
